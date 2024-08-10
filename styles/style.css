@@ -272,6 +272,84 @@ header {
   border-radius: 20px;
 }
 
+/* BMI Styles */
+body {
+  background-color: #000;
+}
+
+.bmi {
+  margin-top: 40px !important;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.bmi p {
+  margin-top: 10px;
+}
+
+.bmi-calculator-container {
+  margin-top: 20px;
+  background: #222222;
+  padding: 5rem;
+}
+
+.bmi-calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.height-weight,
+.age-and-sex {
+  display: flex;
+  gap: 10px;
+}
+
+.height-weight input,
+.age-and-sex input,
+.age-and-sex select {
+  width: 50%;
+  height: 40px;
+  margin: 10px 0;
+  padding-left: 10px;
+  font-size: 1rem;
+  outline: none;
+  background-color: #383838;
+  color: #9c9d9b;
+  border: 0;
+}
+
+.activity select {
+  width: 100%;
+  height: 3rem;
+  font-size: 1rem;
+  padding-left: 10px;
+  background-color: #383838;
+  border: 0;
+  color: #9c9d9b;
+}
+
+.bmi-calculator-chart {
+  width: 50%;
+}
+
+table {
+  width: 100%;
+  height: 250px;
+  color: #565656;
+}
+
+table tr th {
+  color: white;
+  text-align: left;
+  padding: 10px;
+}
+
+table tr td {
+  padding-left: 10px;
+}
+
 @media screen and (max-width: 576px) {
   .btn-primary,
   .btn-secondary {
