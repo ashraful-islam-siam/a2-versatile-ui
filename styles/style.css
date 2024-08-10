@@ -397,78 +397,51 @@ table tr td {
   color: #7f7f7f;
 }
 
-@media screen and (max-width: 576px) {
-  .btn-primary,
-  .btn-secondary {
-    padding: 10px 20px;
-  }
-  .nav-links {
-    border: 0;
-  }
-  .menu-bar {
-    display: block;
-    font-size: 24px;
-    transition: transform 0.5s ease-in-out;
-  }
+/* Footer Styles  */
 
-  .menu-bar:hover {
-    transform: scale(1.5);
-  }
+footer {
+  /* padding: 4.5rem; */
+  background-color: #191919;
+  height: 78vh;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+}
 
-  .nav-links ul {
-    display: none;
-    border: none;
-  }
+.all-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5.5rem;
+  height: 70vh;
+}
 
-  header {
-    height: auto;
-  }
-  .banner-container {
-    overflow: none;
-  }
-  .banner-content {
-    flex-direction: column;
-  }
+.fitness-text h3 {
+  color: #e6533c;
+  font-size: 2.5rem;
+  font-style: italic;
+}
 
-  .banner-image {
-    width: 100%;
-    background: url("../images/Images\ 2.png");
-    background-repeat: no-repeat;
-    height: 90vh;
-  }
+.fitness-text p {
+  line-height: 1.3rem;
+  margin: 10px 0;
+}
 
-  .banner-image img {
-    width: 80%;
-    display: none;
-  }
+.get-started ul li {
+  margin-bottom: 15px;
+}
 
-  .workout {
-    width: 140px;
-    top: 60px;
-    right: 20px;
-  }
+.get-started ul li a {
+  font-size: 1.5rem;
+}
 
-  .workout h4 {
-    font-size: 1.2rem;
-  }
+.copyrights-container {
+  padding-bottom: 20px;
+}
 
-  .workout p {
-    font-size: 14px;
-  }
-
-  .video-tutorial {
-    width: 170px;
-    left: 0;
-    bottom: 200px;
-  }
-
-  .video-tutorial h4 {
-    font-size: 1.2rem;
-    color: #fff;
-  }
-
-  .video-tutorial p {
-    color: #a9a6a2;
-    font-size: 1rem;
-  }
+.copyrights {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
 }

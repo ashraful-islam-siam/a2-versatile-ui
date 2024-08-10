@@ -1,4 +1,77 @@
 @media screen and (max-width: 576px) {
+  .btn-primary,
+  .btn-secondary {
+    padding: 10px 20px;
+  }
+  .nav-links {
+    border: 0;
+  }
+  .menu-bar {
+    display: block;
+    font-size: 24px;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .menu-bar:hover {
+    transform: scale(1.5);
+  }
+
+  .nav-links ul {
+    display: none;
+    border: none;
+  }
+
+  header {
+    height: auto;
+  }
+  .banner-container {
+    overflow: none;
+  }
+  .banner-content {
+    flex-direction: column;
+  }
+
+  .banner-image {
+    width: 100%;
+    background: url("../images/Images\ 2.png");
+    background-repeat: no-repeat;
+    height: 90vh;
+  }
+
+  .banner-image img {
+    width: 80%;
+    display: none;
+  }
+
+  .workout {
+    width: 140px;
+    top: 60px;
+    right: 20px;
+  }
+
+  .workout h4 {
+    font-size: 1.2rem;
+  }
+
+  .workout p {
+    font-size: 14px;
+  }
+
+  .video-tutorial {
+    width: 170px;
+    left: 0;
+    bottom: 200px;
+  }
+
+  .video-tutorial h4 {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+
+  .video-tutorial p {
+    color: #a9a6a2;
+    font-size: 1rem;
+  }
   .habit-container {
     height: auto;
     padding: 100px 0;
