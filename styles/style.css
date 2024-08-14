@@ -460,6 +460,30 @@ table tr td {
   background-image: url("../images/trainer6.png");
 }
 
+/* Testimonials styles */
+.testimonial-container {
+  padding: 50px 0;
+}
+
+.testimonial-container p {
+  color: #383838;
+  width: 50%;
+  line-height: 1.5rem;
+  margin: 15px auto;
+}
+
+.testimonial-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.testimonial-container h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 15px;
+}
+
 /* Footer Styles  */
 
 footer {

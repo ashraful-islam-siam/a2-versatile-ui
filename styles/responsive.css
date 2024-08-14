@@ -120,6 +120,10 @@
     width: 100%;
   }
 
+  .testimonial-container p {
+    width: 100%;
+  }
+
   footer {
     overflow: hidden;
     width: 100%;
