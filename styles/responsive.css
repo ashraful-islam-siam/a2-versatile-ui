@@ -97,6 +97,14 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .leg {
+    display: none;
+  }
+
+  .pushup {
+    grid-area: p;
+  }
+
   .team-content > div {
     width: 100%;
     margin: 0;
