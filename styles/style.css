@@ -1,28 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-
-@font-face {
-  font-family: "Miami";
-  src: url("../fonts/Miama.ttf");
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  margin: 0 auto;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
 /* Header styles */
 header {
   background: rgb(44, 44, 44);
@@ -272,15 +247,84 @@ header {
   border-radius: 20px;
 }
 
-/* BMI Styles */
-body {
-  background-color: #000;
+/* Training and Exercises styles */
+.training-and-exercises {
+  height: auto;
+}
+.training-and-exercises .training-content {
+  display: grid;
+  grid-template-areas:
+    "l l l p p p p p p rl rl rl "
+    "bl1 bl1 bl1 bl1 bl1 bl2 bl2 bl2 bl3 bl3 bl3 bl3";
+  /* grid-template-rows: repeat(3, 250px); */
+  margin-top: 30px;
+  margin-bottom: 0;
 }
 
+.bl1 {
+  background-image: url("../images/exercise4.png");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #302e2e;
+  background-blend-mode: screen;
+  grid-area: bl1;
+}
+.bl2 {
+  background-image: url("../images/exercise5.jpg");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #71f043b1;
+  background-blend-mode: screen;
+  grid-area: bl2;
+}
+.bl3 {
+  background-image: url("../images/exercise6.jpg");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #7495cf95;
+  background-blend-mode: screen;
+  grid-area: bl3;
+}
+
+.training-content .leg {
+  background-image: url(../images/exercise1.jpg);
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #82ffe890;
+  background-blend-mode: screen;
+  grid-area: l;
+}
+.pushup {
+  background-image: url("../images/exercise2.png");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255, 0, 0, 0.514);
+  background-blend-mode: screen;
+  grid-area: p;
+}
+
+.rl {
+  background-image: url("../images/exercise3.png");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #acaaaa8e;
+  background-blend-mode: screen;
+  grid-area: rl;
+}
+
+/* BMI Styles */
+
 .bmi {
-  margin-top: 40px !important;
   width: 400px;
   margin: 0 auto;
+  margin-top: 50px;
 }
 
 .bmi p {
@@ -379,7 +423,7 @@ table tr td {
 }
 
 .team-content > div {
-  background-image: url("../images/trainer1.png");
+  /* background-image: url("../images/trainer1.png"); */
   width: 300px;
   height: 250px;
   background-size: cover;
@@ -395,6 +439,25 @@ table tr td {
 
 .team-content p {
   color: #7f7f7f;
+}
+
+.trainer-1 {
+  background-image: url("../images/trainer1.png");
+}
+.trainer-2 {
+  background-image: url("../images/trainer2.png");
+}
+.trainer-3 {
+  background-image: url("../images/trainer3.png");
+}
+.trainer-4 {
+  background-image: url("../images/trainer4.png");
+}
+.trainer-5 {
+  background-image: url("../images/trainer5.png");
+}
+.trainer-6 {
+  background-image: url("../images/trainer6.png");
 }
 
 /* Footer Styles  */
